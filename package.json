@@ -5,10 +5,10 @@
   "scripts": {
     "vite:dev": "vite",
     "vite:build": "vite build",
-    "preview": "vite preview",
+    "vire:preview": "vite preview",
     "dev": "histoire dev",
     "build": "histoire build",
-    "story:preview": "histoire preview"
+    "preview": "histoire preview"
   },
   "dependencies": {
     "darkmode-js": "^1.5.7",
