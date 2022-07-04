@@ -1,22 +1,33 @@
 {
-  "name": "x",
+  "name": "xxgdemo",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "vite:dev": "vite",
-    "vite:build": "vite build",
-    "vire:preview": "vite preview",
-    "dev": "histoire dev",
-    "build": "histoire build",
-    "preview": "histoire preview"
+    "xdev": "vite",
+    "xbuild": "vue-tsc --noEmit && vite build",
+    "xpreview": "vite preview",
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook"
   },
   "dependencies": {
     "darkmode-js": "^1.5.7",
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-vite": "^0.1.38",
+    "@storybook/testing-library": "^0.0.13",
+    "@storybook/vue3": "^6.5.9",
     "@vitejs/plugin-vue": "^2.3.3",
-    "histoire": "^0.7.6",
-    "vite": "^2.9.9"
+    "babel-loader": "^8.2.5",
+    "storybook-dark-mode": "^1.1.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.34.7"
   }
 }
