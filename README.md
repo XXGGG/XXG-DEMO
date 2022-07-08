@@ -1,12 +1,19 @@
-# XG-DEMO
+# vuecli_storybook
 
-- XG-DEMO 用来展示、测试一些css特性，一些js，或者布局。
+## Project setup
+```
+npm install
+```
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## 『TEST』一些好玩的测试
-1. darkmode.js
+### Compiles and minifies for production
+```
+npm run build
+```
 
-
-
-## 『DEMO』有意思的探索
-1. JS让元素跟随鼠标
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
